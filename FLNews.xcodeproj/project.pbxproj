@@ -11,8 +11,17 @@
 		2379BE29225DE272006A54C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379BE28225DE272006A54C5 /* ViewController.swift */; };
 		2379BE2E225DE274006A54C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2379BE2D225DE274006A54C5 /* Assets.xcassets */; };
 		2379BE31225DE274006A54C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2379BE2F225DE274006A54C5 /* LaunchScreen.storyboard */; };
-		2379BE3E225DE6BE006A54C5 /* FLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379BE3D225DE6BE006A54C5 /* FLTabBarController.swift */; };
+		2379BE3E225DE6BE006A54C5 /* FLMyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379BE3D225DE6BE006A54C5 /* FLMyTabBarController.swift */; };
 		2379BE40225DE81D006A54C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2379BE3F225DE81D006A54C5 /* Images.xcassets */; };
+		2379BE44225DE99D006A54C5 /* night_theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2379BE42225DE99D006A54C5 /* night_theme.plist */; };
+		2379BE45225DE99D006A54C5 /* default_theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2379BE43225DE99D006A54C5 /* default_theme.plist */; };
+		2379BE47225DEB42006A54C5 /* FLMyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379BE46225DEB42006A54C5 /* FLMyNavigationController.swift */; };
+		2379BE4B225DEEFD006A54C5 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379BE4A225DEEFD006A54C5 /* Const.swift */; };
+		2379BE4E225E0F20006A54C5 /* FLHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379BE4D225E0F20006A54C5 /* FLHomeViewController.swift */; };
+		2379BE52225E0FB8006A54C5 /* FLVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379BE51225E0FB8006A54C5 /* FLVideoViewController.swift */; };
+		2379BE58225E1000006A54C5 /* FLRedPackageViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379BE57225E1000006A54C5 /* FLRedPackageViewController2.swift */; };
+		2379BE5B225E1019006A54C5 /* FLHuoshanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379BE5A225E1019006A54C5 /* FLHuoshanViewController.swift */; };
+		2379BE5E225E1030006A54C5 /* FLWeitoutiaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379BE5D225E1030006A54C5 /* FLWeitoutiaoViewController.swift */; };
 		734B5BCD5E4B4E4CF275197C /* Pods_FLNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6DDC947EA6B8CE845309A1 /* Pods_FLNews.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,8 +33,17 @@
 		2379BE2D225DE274006A54C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2379BE30225DE274006A54C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2379BE32225DE274006A54C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2379BE3D225DE6BE006A54C5 /* FLTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLTabBarController.swift; sourceTree = "<group>"; };
+		2379BE3D225DE6BE006A54C5 /* FLMyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLMyTabBarController.swift; sourceTree = "<group>"; };
 		2379BE3F225DE81D006A54C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2379BE42225DE99D006A54C5 /* night_theme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = night_theme.plist; sourceTree = "<group>"; };
+		2379BE43225DE99D006A54C5 /* default_theme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = default_theme.plist; sourceTree = "<group>"; };
+		2379BE46225DEB42006A54C5 /* FLMyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLMyNavigationController.swift; sourceTree = "<group>"; };
+		2379BE4A225DEEFD006A54C5 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		2379BE4D225E0F20006A54C5 /* FLHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHomeViewController.swift; sourceTree = "<group>"; };
+		2379BE51225E0FB8006A54C5 /* FLVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLVideoViewController.swift; sourceTree = "<group>"; };
+		2379BE57225E1000006A54C5 /* FLRedPackageViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLRedPackageViewController2.swift; sourceTree = "<group>"; };
+		2379BE5A225E1019006A54C5 /* FLHuoshanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLHuoshanViewController.swift; sourceTree = "<group>"; };
+		2379BE5D225E1030006A54C5 /* FLWeitoutiaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLWeitoutiaoViewController.swift; sourceTree = "<group>"; };
 		751D087A4F4D2B2BA00CF0DD /* Pods-FLNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLNews.release.xcconfig"; path = "Target Support Files/Pods-FLNews/Pods-FLNews.release.xcconfig"; sourceTree = "<group>"; };
 		79391CB1EFC85360BFA71506 /* Pods-FLNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLNews.debug.xcconfig"; path = "Target Support Files/Pods-FLNews/Pods-FLNews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +95,10 @@
 		2379BE38225DE484006A54C5 /* Classses */ = {
 			isa = PBXGroup;
 			children = (
+				2379BE55225E0FD8006A54C5 /* RedPackage */,
+				2379BE54225E0FCE006A54C5 /* HuoShan */,
+				2379BE53225E0FC3006A54C5 /* Weitoutiao */,
+				2379BE4F225E0F93006A54C5 /* Video */,
 				2379BE3B225DE4B6006A54C5 /* Others */,
 				2379BE3A225DE4AB006A54C5 /* Home */,
 				2379BE39225DE493006A54C5 /* Main */,
@@ -95,6 +117,7 @@
 		2379BE3A225DE4AB006A54C5 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				2379BE4C225E0F16006A54C5 /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -102,6 +125,8 @@
 		2379BE3B225DE4B6006A54C5 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				2379BE4A225DEEFD006A54C5 /* Const.swift */,
+				2379BE41225DE975006A54C5 /* Theme */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -109,7 +134,89 @@
 		2379BE3C225DE6A6006A54C5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2379BE3D225DE6BE006A54C5 /* FLTabBarController.swift */,
+				2379BE3D225DE6BE006A54C5 /* FLMyTabBarController.swift */,
+				2379BE46225DEB42006A54C5 /* FLMyNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2379BE41225DE975006A54C5 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				2379BE43225DE99D006A54C5 /* default_theme.plist */,
+				2379BE42225DE99D006A54C5 /* night_theme.plist */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		2379BE4C225E0F16006A54C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2379BE4D225E0F20006A54C5 /* FLHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2379BE4F225E0F93006A54C5 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				2379BE50225E0FA6006A54C5 /* Controller */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		2379BE50225E0FA6006A54C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2379BE51225E0FB8006A54C5 /* FLVideoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2379BE53225E0FC3006A54C5 /* Weitoutiao */ = {
+			isa = PBXGroup;
+			children = (
+				2379BE5C225E1023006A54C5 /* Controller */,
+			);
+			path = Weitoutiao;
+			sourceTree = "<group>";
+		};
+		2379BE54225E0FCE006A54C5 /* HuoShan */ = {
+			isa = PBXGroup;
+			children = (
+				2379BE59225E1007006A54C5 /* Controller */,
+			);
+			path = HuoShan;
+			sourceTree = "<group>";
+		};
+		2379BE55225E0FD8006A54C5 /* RedPackage */ = {
+			isa = PBXGroup;
+			children = (
+				2379BE56225E0FF7006A54C5 /* Controller */,
+			);
+			path = RedPackage;
+			sourceTree = "<group>";
+		};
+		2379BE56225E0FF7006A54C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2379BE57225E1000006A54C5 /* FLRedPackageViewController2.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2379BE59225E1007006A54C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2379BE5A225E1019006A54C5 /* FLHuoshanViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2379BE5C225E1023006A54C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2379BE5D225E1030006A54C5 /* FLWeitoutiaoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -194,6 +301,8 @@
 				2379BE40225DE81D006A54C5 /* Images.xcassets in Resources */,
 				2379BE31225DE274006A54C5 /* LaunchScreen.storyboard in Resources */,
 				2379BE2E225DE274006A54C5 /* Assets.xcassets in Resources */,
+				2379BE44225DE99D006A54C5 /* night_theme.plist in Resources */,
+				2379BE45225DE99D006A54C5 /* default_theme.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +392,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2379BE5B225E1019006A54C5 /* FLHuoshanViewController.swift in Sources */,
 				2379BE29225DE272006A54C5 /* ViewController.swift in Sources */,
+				2379BE4E225E0F20006A54C5 /* FLHomeViewController.swift in Sources */,
+				2379BE58225E1000006A54C5 /* FLRedPackageViewController2.swift in Sources */,
+				2379BE47225DEB42006A54C5 /* FLMyNavigationController.swift in Sources */,
 				2379BE27225DE272006A54C5 /* AppDelegate.swift in Sources */,
-				2379BE3E225DE6BE006A54C5 /* FLTabBarController.swift in Sources */,
+				2379BE5E225E1030006A54C5 /* FLWeitoutiaoViewController.swift in Sources */,
+				2379BE3E225DE6BE006A54C5 /* FLMyTabBarController.swift in Sources */,
+				2379BE52225E0FB8006A54C5 /* FLVideoViewController.swift in Sources */,
+				2379BE4B225DEEFD006A54C5 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
