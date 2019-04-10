@@ -11,15 +11,23 @@
 		2379BE29225DE272006A54C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379BE28225DE272006A54C5 /* ViewController.swift */; };
 		2379BE2E225DE274006A54C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2379BE2D225DE274006A54C5 /* Assets.xcassets */; };
 		2379BE31225DE274006A54C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2379BE2F225DE274006A54C5 /* LaunchScreen.storyboard */; };
+		2379BE3E225DE6BE006A54C5 /* FLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379BE3D225DE6BE006A54C5 /* FLTabBarController.swift */; };
+		2379BE40225DE81D006A54C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2379BE3F225DE81D006A54C5 /* Images.xcassets */; };
+		734B5BCD5E4B4E4CF275197C /* Pods_FLNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6DDC947EA6B8CE845309A1 /* Pods_FLNews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C6DDC947EA6B8CE845309A1 /* Pods_FLNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2379BE23225DE272006A54C5 /* FLNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2379BE26225DE272006A54C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2379BE28225DE272006A54C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2379BE2D225DE274006A54C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2379BE30225DE274006A54C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2379BE32225DE274006A54C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2379BE3D225DE6BE006A54C5 /* FLTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLTabBarController.swift; sourceTree = "<group>"; };
+		2379BE3F225DE81D006A54C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		751D087A4F4D2B2BA00CF0DD /* Pods-FLNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLNews.release.xcconfig"; path = "Target Support Files/Pods-FLNews/Pods-FLNews.release.xcconfig"; sourceTree = "<group>"; };
+		79391CB1EFC85360BFA71506 /* Pods-FLNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLNews.debug.xcconfig"; path = "Target Support Files/Pods-FLNews/Pods-FLNews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				734B5BCD5E4B4E4CF275197C /* Pods_FLNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +47,8 @@
 			children = (
 				2379BE25225DE272006A54C5 /* FLNews */,
 				2379BE24225DE272006A54C5 /* Products */,
+				38D9C199EA77A0F965FB6FF7 /* Pods */,
+				A6C75E20263AF0E98F3BF0FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,13 +63,72 @@
 		2379BE25225DE272006A54C5 /* FLNews */ = {
 			isa = PBXGroup;
 			children = (
+				2379BE38225DE484006A54C5 /* Classses */,
 				2379BE26225DE272006A54C5 /* AppDelegate.swift */,
 				2379BE28225DE272006A54C5 /* ViewController.swift */,
 				2379BE2D225DE274006A54C5 /* Assets.xcassets */,
 				2379BE2F225DE274006A54C5 /* LaunchScreen.storyboard */,
 				2379BE32225DE274006A54C5 /* Info.plist */,
+				2379BE3F225DE81D006A54C5 /* Images.xcassets */,
 			);
 			path = FLNews;
+			sourceTree = "<group>";
+		};
+		2379BE38225DE484006A54C5 /* Classses */ = {
+			isa = PBXGroup;
+			children = (
+				2379BE3B225DE4B6006A54C5 /* Others */,
+				2379BE3A225DE4AB006A54C5 /* Home */,
+				2379BE39225DE493006A54C5 /* Main */,
+			);
+			path = Classses;
+			sourceTree = "<group>";
+		};
+		2379BE39225DE493006A54C5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2379BE3C225DE6A6006A54C5 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2379BE3A225DE4AB006A54C5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2379BE3B225DE4B6006A54C5 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		2379BE3C225DE6A6006A54C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2379BE3D225DE6BE006A54C5 /* FLTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		38D9C199EA77A0F965FB6FF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79391CB1EFC85360BFA71506 /* Pods-FLNews.debug.xcconfig */,
+				751D087A4F4D2B2BA00CF0DD /* Pods-FLNews.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A6C75E20263AF0E98F3BF0FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C6DDC947EA6B8CE845309A1 /* Pods_FLNews.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2379BE35225DE274006A54C5 /* Build configuration list for PBXNativeTarget "FLNews" */;
 			buildPhases = (
+				3E0151A6E8A94A4068A938B0 /* [CP] Check Pods Manifest.lock */,
 				2379BE1F225DE271006A54C5 /* Sources */,
 				2379BE20225DE271006A54C5 /* Frameworks */,
 				2379BE21225DE271006A54C5 /* Resources */,
+				A317D71479165BC577B46315 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -119,12 +191,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2379BE40225DE81D006A54C5 /* Images.xcassets in Resources */,
 				2379BE31225DE274006A54C5 /* LaunchScreen.storyboard in Resources */,
 				2379BE2E225DE274006A54C5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E0151A6E8A94A4068A938B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A317D71479165BC577B46315 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FLNews/Pods-FLNews-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BMPlayer/BMPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SGPagingView/SGPagingView.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftTheme/SwiftTheme.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SGPagingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTheme.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FLNews/Pods-FLNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2379BE1F225DE271006A54C5 /* Sources */ = {
@@ -133,6 +285,7 @@
 			files = (
 				2379BE29225DE272006A54C5 /* ViewController.swift in Sources */,
 				2379BE27225DE272006A54C5 /* AppDelegate.swift in Sources */,
+				2379BE3E225DE6BE006A54C5 /* FLTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +421,10 @@
 		};
 		2379BE36225DE274006A54C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79391CB1EFC85360BFA71506 /* Pods-FLNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2V9XE4LC4E;
 				INFOPLIST_FILE = FLNews/Info.plist;
@@ -279,15 +434,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.2fire.FLNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2379BE37225DE274006A54C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 751D087A4F4D2B2BA00CF0DD /* Pods-FLNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2V9XE4LC4E;
 				INFOPLIST_FILE = FLNews/Info.plist;
@@ -297,7 +454,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.2fire.FLNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
