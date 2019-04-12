@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2368AF81226098D40011B806 /* FLHomeNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368AF7F226098D40011B806 /* FLHomeNavigationView.swift */; };
+		2368AF82226098D40011B806 /* FLHomeNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2368AF80226098D40011B806 /* FLHomeNavigationView.xib */; };
+		2368AF8522609A2B0011B806 /* UIKit+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368AF8422609A2B0011B806 /* UIKit+Extention.swift */; };
 		2379BE27225DE272006A54C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379BE26225DE272006A54C5 /* AppDelegate.swift */; };
 		2379BE29225DE272006A54C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379BE28225DE272006A54C5 /* ViewController.swift */; };
 		2379BE2E225DE274006A54C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2379BE2D225DE274006A54C5 /* Assets.xcassets */; };
@@ -27,6 +30,9 @@
 
 /* Begin PBXFileReference section */
 		1C6DDC947EA6B8CE845309A1 /* Pods_FLNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2368AF7F226098D40011B806 /* FLHomeNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLHomeNavigationView.swift; sourceTree = "<group>"; };
+		2368AF80226098D40011B806 /* FLHomeNavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLHomeNavigationView.xib; sourceTree = "<group>"; };
+		2368AF8422609A2B0011B806 /* UIKit+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extention.swift"; sourceTree = "<group>"; };
 		2379BE23225DE272006A54C5 /* FLNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2379BE26225DE272006A54C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2379BE28225DE272006A54C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2368AF7C226092AF0011B806 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2368AF7F226098D40011B806 /* FLHomeNavigationView.swift */,
+				2368AF80226098D40011B806 /* FLHomeNavigationView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2368AF8322609A120011B806 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				2368AF8422609A2B0011B806 /* UIKit+Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
 		2379BE1A225DE271006A54C5 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +132,7 @@
 		2379BE39225DE493006A54C5 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				2368AF8322609A120011B806 /* Extention */,
 				2379BE3C225DE6A6006A54C5 /* Controller */,
 			);
 			path = Main;
@@ -117,6 +141,7 @@
 		2379BE3A225DE4AB006A54C5 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				2368AF7C226092AF0011B806 /* View */,
 				2379BE4C225E0F16006A54C5 /* Controller */,
 			);
 			path = Home;
@@ -299,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2379BE40225DE81D006A54C5 /* Images.xcassets in Resources */,
+				2368AF82226098D40011B806 /* FLHomeNavigationView.xib in Resources */,
 				2379BE31225DE274006A54C5 /* LaunchScreen.storyboard in Resources */,
 				2379BE2E225DE274006A54C5 /* Assets.xcassets in Resources */,
 				2379BE44225DE99D006A54C5 /* night_theme.plist in Resources */,
@@ -395,12 +421,14 @@
 				2379BE5B225E1019006A54C5 /* FLHuoshanViewController.swift in Sources */,
 				2379BE29225DE272006A54C5 /* ViewController.swift in Sources */,
 				2379BE4E225E0F20006A54C5 /* FLHomeViewController.swift in Sources */,
+				2368AF8522609A2B0011B806 /* UIKit+Extention.swift in Sources */,
 				2379BE58225E1000006A54C5 /* FLRedPackageViewController2.swift in Sources */,
 				2379BE47225DEB42006A54C5 /* FLMyNavigationController.swift in Sources */,
 				2379BE27225DE272006A54C5 /* AppDelegate.swift in Sources */,
 				2379BE5E225E1030006A54C5 /* FLWeitoutiaoViewController.swift in Sources */,
 				2379BE3E225DE6BE006A54C5 /* FLMyTabBarController.swift in Sources */,
 				2379BE52225E0FB8006A54C5 /* FLVideoViewController.swift in Sources */,
+				2368AF81226098D40011B806 /* FLHomeNavigationView.swift in Sources */,
 				2379BE4B225DEEFD006A54C5 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,23 @@
 //
 
 import UIKit
+import SGPagingView
+import SwiftTheme
 
 class FLHomeViewController: UIViewController {
     
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
+}
+
+extension FLHomeViewController {
+    
+    private func setupUI() {
+        view.theme_backgroundColor = "colors.cellBackgroundColor"
+        
+    }
 }
