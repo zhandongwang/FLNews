@@ -8,18 +8,18 @@
 
 import UIKit
 
-protocol FLStoryboardLoadable {
+protocol StoryboardLoadable {
 }
 
-extension FLStoryboardLoadable where Self:UIViewController {
+extension StoryboardLoadable where Self:UIViewController {
     static func loadStoryboard() -> Self {
         return UIStoryboard(name: "\(self)", bundle: nil).instantiateViewController(withIdentifier: "\(self)") as! Self
     }
 }
 
-protocol FLNibLoadable {
+protocol NibLoadable {
 }
-extension FLNibLoadable {
+extension NibLoadable {
     static func loadViewFromNib() -> Self {
         return Bundle.main.loadNibNamed("\(self)", owner: nil, options: nil)?.last as! Self
     }

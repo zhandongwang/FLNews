@@ -9,7 +9,7 @@
 import UIKit
 import IBAnimatable
 
-class HomeNavigationView: UIView, FLNibLoadable {
+class HomeNavigationView: UIView, NibLoadable {
 
     @IBOutlet weak var searchButton: AnimatableButton!
     
